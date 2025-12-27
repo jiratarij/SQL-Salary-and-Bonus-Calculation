@@ -1,5 +1,6 @@
 # SQL Salary Increment & Bonus Calculation
 
+
 ## Overview
 This mini project demonstrates how SQL can be applied to calculate employee salary increments and bonuses based on business rules commonly used in payroll systems.
 
@@ -8,12 +9,14 @@ The project focuses on:
 - Using CTEs for readable and maintainable queries
 - Producing structured output suitable for reporting or payslip generation
 
+
 ## Objective
 - Calculate base salary increment based on current salary
 - Apply department-based bonus percentages
 - Compute:
   - New salary (after increment, excluding bonus)
   - Net income (including both increment and bonus)
+
 
 ## Business Rules
 
@@ -29,6 +32,7 @@ The project focuses on:
 | Finance   | 30%   |
 | Others   | 10%   |
 
+
 ## SQL Concepts Used
 - CREATE TABLE
 - INSERT INTO
@@ -36,6 +40,7 @@ The project focuses on:
 - CASE statements
 - LEFT JOIN
 - Arithmetic calculations in SQL
+
 
 ## Analysis Result (Payroll Summary)
 The following table shows the calculated values for base increments, new salaries, and final net income for each employee:
@@ -51,6 +56,7 @@ This output structure is suitable for:
 - Payroll review
 - Payslip generation
 - Export to PDF or reporting tools
+
 
 ## Notes
 - This project was inspired by the Alex The Analyst SQL tutorials.
